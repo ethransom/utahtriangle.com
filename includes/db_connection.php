@@ -1,4 +1,7 @@
 <?php
+
+	if (false) {
+
 if($_SERVER['HTTP_HOST'] == "utahtriangle"){
   define("DB_SERVER", "localhost");
 	define("DB_USER", "root");
@@ -19,5 +22,7 @@ if($_SERVER['HTTP_HOST'] == "utahtriangle"){
          " (" . mysqli_connect_errno() . ")"
     );
   }
+
+	}
     
 ?>

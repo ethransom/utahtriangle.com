@@ -4,8 +4,8 @@
         <div class="col-md-4">
             <div class="widget about-widget">
                 <h6 class="widget-head">Message From the <span class="highlight">President</span></h6>
-                <?php $CM_primary = find_CM_by_ID(1); ?>
-                <p class="text-alt"><small><?php echo $CM_primary['presidentNote']; ?></small></p>
+                <?php $CM_primary = "" // find_CM_by_ID(1); ?>
+                <p class="text-alt"><small><?php // echo $CM_primary['presidentNote']; ?></small></p>
             </div>
         </div>
 

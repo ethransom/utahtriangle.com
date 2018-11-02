@@ -1,13 +1,14 @@
 <?php require_once("../includes/session.php"); ?>
-<?php require_once("../includes/db_connection.php"); ?>
-<?php require_once("../includes/functions.php") ?>
+<?php // require_once("../includes/db_connection.php"); ?>
+<?php // require_once("../includes/functions.php") ?>
 <?php    
-    $CM_primary = find_CM_by_ID(1);
+    /*$CM_primary = find_CM_by_ID(1);
     $CM_link = find_CM_by_ID(2);
     $CM_popup_title = find_CM_by_ID(3);
-    $CM_popup_body = find_CM_by_ID(4);
+    $CM_popup_body = find_CM_by_ID(4);*/
 
-    $num = UniqueRandomNumbersWithinRange(1,14,13);
+    // $num = UniqueRandomNumbersWithinRange(1,14,13);
+    $num = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14);
 
 ?>
 <?php include_once("../includes/layouts/header.php"); ?>
