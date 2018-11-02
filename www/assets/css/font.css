@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #777777;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 300;
+    color: #666666;
+    margin: 0px;
+}
+h1 {
+    font-size: x-large;
+    font-weight: bold;
+}
+h2 {
+    font-size: x-large;
+}
+h3 {
+    font-size: large;
+    font-weight: bold;
+}
+h4 {
+    font-size: large;
+}
+h5 {
+    font-size: medium;
+    font-weight: bold;
+}
+h6 {
+    font-size: medium;
+}
+strong {
+    font-weight: 600;
+}
+p {
+    font-size: small;
+}
+a {
+    cursor: pointer;
+}
